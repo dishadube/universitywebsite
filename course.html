@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+</head>
+<body>
+    <section class="sub-header"> 
+       <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSES</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav> 
+       <h1>Our Courses</h1>
+    </section>
+ <!-- courses -->
+ <section class="course">
+    <h1>Courses we Offer</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, culpa?</p>
+ <div class="row">
+    <div class="course-col">
+        <h3>intermidiate</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum repellat numquam 
+            cupiditate tempora dolor earum a. Blanditiis quas perferendis
+            ipsam repellat? Nihil aspernatur amet architecto. Ad ducimus odit tempora!</p>
+    </div>
+    <div class="course-col">
+        <h3>Degree</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum repellat numquam 
+            cupiditate tempora dolor earum a. Blanditiis quas perferendis
+            ipsam repellat? Nihil aspernatur amet architecto. Ad ducimus odit tempora!</p>
+    </div>
+    <div class="course-col">
+        <h3>Post-Graduation</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum repellat numquam 
+            cupiditate tempora dolor earum a. Blanditiis quas perferendis
+            ipsam repellat? Nihil aspernatur amet architecto. Ad ducimus odit tempora!
+        </p>
+    </div>    
+</div>
+</section>
+
+ <!-- ---- facilities---- -->
+
+
+ <section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, recusandae.</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.png">
+            <h3>World class Library</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore voluptatem 
+             libero culpa eius reiciendis repellat amet distinctio suscipit quae ea?</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/basketball.png">
+            <h3>Largest Play Ground</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore voluptatem 
+             libero culpa eius reiciendis repellat amet distinctio suscipit quae ea?</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/cafeteria.png">
+            <h3>Tasty and Healthy Food</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore voluptatem 
+             libero culpa eius reiciendis repellat amet distinctio suscipit quae ea?</p>
+        </div>
+    </div>
+</section>
+
+<!-- ----Footer---- -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur eveniet veritatis autem, 
+        architecto voluptatem praesentium <br> odio quasi omnis, similique itaque 
+        quidem corrupti suscipit deserunt modi cum? Veniam, deserunt!</p>
+        <div class="icons">
+            <a class="logo-facebook" href="https://www.facebook.com/">
+        <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a class="logo-twitter" href="https://x.com/twitter">
+                <i class="fa-brands fa-x-twitter"></i>
+        </a>
+        <a class="logo-intagram" href="https://web.whatsapp.com">
+        <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a class="logo-whatsapp" href="https://web.whatsapp.com">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a class="logo-telegram" href="https://web.telegram.org/a/">
+        <i class="fa-brands fa-telegram"></i>
+        </a>
+    </div>
+</section>
+<!-- ----- Javascript for Toggle Menu----- -->
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+</body>
+</html>

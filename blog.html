@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+</head>
+<body>
+    <section class="sub-header"> 
+       <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSES</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav> 
+       <h1>Our certificate & Online Programs For 2024</h1>
+    </section>
+
+<!-- ----blog page content---- -->
+
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg">
+            <h2>Our certificate & Online Programs For 2024</h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio atque voluptatem, 
+                non vitae autem tempora impedit, maxime debitis nobis omnis sit magnam maiores 
+                assumenda inventore? Ipsum fugiat doloribus rerum blanditiis! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                 Iste accusantium qui commodi autem praesentium tempora mollitia maxime aut dolorem dolores impedit,
+                 unde explicabo vero atque aperiam nisi earum modi? Veritatis?
+              </p>
+              <br>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet eligendi sit beatae ipsa? Dolores expedita 
+                inventore veritatis, labore odio vero sapiente repellendus assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Quis quae quaerat voluptatem vel dolore ea commodi excepturi, repellendus praesentium nihil nam quod aliquid deserunt
+                 laborum soluta voluptatibus placeat qui iste.
+                </p>
+                 <br>
+                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat fugit, tempore et totam maiores eum nihil pariatur 
+                    officiis iste qui voluptatem necessitatibus minima explicabo iusto sequi itaque possimus beatae soluta? 
+                    Aperiam doloremque eaque molestias nihil laboriosam fugiat ipsum fugit illo.
+                </p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, fugit! Ratione natus, expedita dolorum error
+                         veritatis ipsum debitis nulla quibusdam ab,eius officia
+                          dignissimos neque, velit facilis ut vero alias?
+                    </p>
+                    <div class="comment-box">
+                        <h3>Leave a Comment</h3>
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter E-mail">
+                            <textarea rows="5" placeholder="Your Comment"></textarea>
+                            <button type="Submit" class="hero-btn red-btn">POST COMMENT</button>
+                        </form>
+                    </div>
+
+
+
+
+                 </div>
+        <div class="blog-right">
+        <h3>Post Categories</h3>
+            <div>
+            <span>Business Anaylitics</span>
+            <span>21</span>
+            </div>
+            <div>
+            <span>Sofware Engineering</span>
+            <span>28</span>
+            </div>
+            <div>
+            <span>Machine Learning</span>
+            <span>15</span>
+            </div>
+            <div>
+            <span>Data Science</span>
+            <span>34</span>
+            </div>
+            <div>
+            <span>Data Anaylitics</span>
+            <span>42</span>
+            </div>
+            <div>
+            <span>Commerce</span>
+            <span>22</span>
+            </div>
+            <div>
+            <span>Computer Science</span>
+            <span>30</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+ 
+<!-- ----Footer---- -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur eveniet veritatis autem, 
+        architecto voluptatem praesentium <br> odio quasi omnis, similique itaque 
+        quidem corrupti suscipit deserunt modi cum? Veniam, deserunt!</p>
+        <div class="icons">
+            <a class="logo-facebook" href="https://www.facebook.com/">
+        <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a class="logo-twitter" href="https://x.com/twitter">
+                <i class="fa-brands fa-x-twitter"></i>
+        </a>
+        <a class="logo-intagram" href="https://web.whatsapp.com">
+        <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a class="logo-whatsapp" href="https://web.whatsapp.com">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a class="logo-telegram" href="https://web.telegram.org/a/">
+        <i class="fa-brands fa-telegram"></i>
+        </a>
+    </div>
+</section>
+<!-- ----- Javascript for Toggle Menu----- -->
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+</body>
+</html>
